@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Coin Flip Game</h1>
+  <p>Wallet Address: {{ walletAddress }}</p>
+  <p>Balance: {{ balance }} tokens</p>
+
+  <input type="number" [(ngModel)]="betAmount" placeholder="Enter your bet amount">
+  <select [(ngModel)]="betChoice">
+    <option value="heads">Heads</option>
+    <option value="tails">Tails</option>
+  </select>
+  <button (click)="placeBet()">Place Bet</button>
+
+  <div *ngIf="message !== ''">
+    <p>{{ message }}</p>
+  </div>
+</div>

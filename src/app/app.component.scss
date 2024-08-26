@@ -1,0 +1,48 @@
+.container {
+    width: 550px;
+    height: 400px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 25px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 150px;
+  }
+  
+  button {
+    margin: 12px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #6a5acd, #00bfff);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background: linear-gradient(45deg, #5a4ab0, #009de0);
+    transform: translateY(-2px);
+  }
+  
+  input, select {
+    margin: 12px 0;
+    padding: 12px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  input:focus, select:focus {
+    border-color: #6a5acd;
+    box-shadow: inset 0 2px 6px rgba(106, 90, 205, 0.2);
+  }
+  
+  
